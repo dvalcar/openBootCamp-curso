@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Peliculas</h1>
+<h2>Contenido Dinámico</h2>
+
+<table>
+
+    <tr>
+        {% for pelicula in object_list %}
+        <td onclick="window.location.href='pelicula/{{pelicula.id}}'">
+
+            <span class="titulo_pelicula">{{ pelicula }}</span>
+        </td>
+        {% cycle '' '' '</tr><tr>' %}
+    {% empty %}
+    <td>No hay peliculas aún</td>
+    {% endfor %}
+</tr>
+</table>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio8",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "ejercicio8.js",
+  "scripts": {
+    "inicio": "node ejercicio8.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dv",
+  "license": "ISC"
+}

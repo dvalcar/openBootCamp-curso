@@ -1,0 +1,12 @@
+.btn-modern{
+    background-color: aquamarine;
+    color: black;
+    transition: all 0.4s;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 5px rgb(211, 79, 79) ;
+    background-color: #eee;
+    color: blue;
+}

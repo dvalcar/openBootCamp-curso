@@ -1,0 +1,4 @@
+{"level":"error","message":"hola","service":"user-service"}
+{"level":"error","message":"ERROR","service":"user-service"}
+{"level":"error","message":"ERROR","service":"user-service"}
+{"level":"error","message":"ERROR Error: Error personalizado","service":"user-service"}
